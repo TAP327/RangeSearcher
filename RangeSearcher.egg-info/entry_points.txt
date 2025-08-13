@@ -1,0 +1,2 @@
+[console_scripts]
+ssay = rs_main.__main__:main

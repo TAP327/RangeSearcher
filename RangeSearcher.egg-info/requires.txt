@@ -1,0 +1,4 @@
+flask
+pandas
+pathlib
+regex
