@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RangeSearcher"
+version = "1.0.0"
+dependencies = [
+    "flask",
+    "pandas",
+    "pathlib",
+    "regex"
+]
+
+authors = [{name = "Taylor Perry", email = "taylorperry327@gmail.com"}]
+keywords = ["CSV"]
+license = "MIT"
+readme = "README.md"
+
+[project.scripts]
+ssay = "rs_main.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["RangeSearcher*"]

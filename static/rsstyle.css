@@ -1,0 +1,155 @@
+h1 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 60px;
+  letter-spacing: 5px;
+  word-spacing: 8px;
+  color: #7fffd4;
+  background-color: #0E57FF;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 1%;
+}
+input[type= "radio"] {
+  border-bottom: 40px;
+  accent-color: #0E57FF;
+  margin-left: 4%;
+  margin-right: 0%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+label{ 
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  word-spacing: 1px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 8%;
+  margin-bottom: 2%;
+}
+p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  word-spacing: 1px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  margin-left: 4%;
+  margin-bottom: 1%;
+}
+table {
+  width: 85%;
+  justify-self: center;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  word-spacing: 1px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  margin-left: 4%;
+  margin-bottom: 1%;
+}
+th, td, tr {
+  border: 1px solid #000000;
+  padding: 8px;
+  margin: 0px;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  word-spacing: 1px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+th {
+  background-color: #7fffd4;
+  color: #000000;
+  border: 0px;
+}
+.enterbutton {
+  color: #FFFFFF;
+  background-color: #0E57FF;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 10px;
+  display: flex;
+  flex: 1;
+  justify-self: center;
+  max-width: 200px;
+}
+.enterbutton:hover{
+  color: #0E57FF;
+  background-color: #7fffd4;
+}
+.enterbutton:active{
+  color: #7fffd4;
+  background-color: #0E57FF;
+  transform: scale(0.95);
+}
+.enterbutton:disabled{
+  color: #444444;
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+.button_row {
+  display: flex;
+  gap: 40px;
+  margin-top: 1%;
+  justify-content: center;
+}
+.error_h{
+  font-size: 36px;
+  font-family: monospace;
+  font-weight: 100;
+  margin-top: 5%;
+  margin-left: 5%;
+  letter-spacing: 0.6px;
+  word-spacing: 1.3px;
+}
+.error_p{
+  font-size: 24px;
+  font-family: monospace;
+  font-weight: 100;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  letter-spacing: 0.6px;
+  word-spacing: 1.3px;
+  line-height: 200%;
+}
+.formlab {
+  margin-left: 1%;
+}

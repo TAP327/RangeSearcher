@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Range Searcher</title>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename = 'rsstyle.css') }}">
+    </head>
+    <body>
+        <h1>RANGE SEARCHER</h1>
+        <p>This is a sample of your search results. The results are cut off after ten columns and rows.</p>
+        <table border = "1">
+            <thead>
+                {% for column in df.columns %}
+                    <th>{{ column }}</th>
+                {% endfor %}
+            </thead>
+            <tbody>
+                {% for index, row in df.iterrows() %}
+                    <tr>
+                        {% for cell in row %}
+                            <td>{{ cell }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <p>Would you like to save your data as a CSV?  Your processed data will be saved to the same folder as your original CSV.</p>
+            <div class = "button_row">
+                <form action = "{{ url_for('saved') }}" method = "post">
+                    <input type = "hidden" name = "df_file" value = "{{ userData['pickle'] }}">
+                    <input type = "hidden" name = "path" value = "{{ userData['processedPath'] }}">
+                    <button class = "enterbutton button_row" type = "submit">Save</button>
+                </form>
+                <form action = "{{ url_for('home') }}" method = "get">
+                    <button class = "enterbutton button_row" type = "submit">Search Again</button>
+                </form>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Range Searcher</title>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" href = "{{ url_for('static', filename = 'rsstyle.css') }}">
+    </head>
+    <body>
+        <h1>RANGE SEARCHER</h1>
+        <p class = "error_h">Congrats! </p>
+        <p class = "error_p">Your CSV was saved under the following path:</p>
+        <p class = "error_p">{{ path_msg }}</p>
+        <form action = "{{ url_for('home') }}" method = "get">
+            <button class = "enterbutton" style = "margin-top: 5%; size-adjust: 200%;" type = "submit">Search Again</button>
+        </form>
+    </body>
+</html>
