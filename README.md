@@ -15,6 +15,7 @@ This program can be used to refine a CSV by rows that contain two key words with
 - Pandas
 - Pathlib
 - Platform
+- PyInstaller
 - Python
 - RegEx
 - Tempfile
