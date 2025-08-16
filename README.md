@@ -21,16 +21,16 @@ This program can be used to refine a CSV by rows that contain two key words with
 
 ## Getting Started
 ---
-This is a python flask program that is run as a locally-hosted webpage.  A terminal such as PowerShell or Visual Studio Code is necessary to run this program as a module.
+This is a python flask program that is run as a locally-hosted webpage.  To run this program, download the Windows executbale or run the source code in a terminal such as PowerShell or Visual Studio Code as a module.
 ### Prerequisites
-The prerequisites for running the program can be downloaded using the terminal command "pip install .".
+If you are running the program in your terminal, the prerequisites for running the program can be downloaded using the terminal command "pip install .".  Otherwise, just download and run the executable.
 ### Installation
-The program can be downloaded off of GitHub and pip installed using the "pip install ." command.
+The program can be downloaded off of GitHub as an executable.  If you download the source code, use the "pip install ." command to run it.
 ## Usage
 ---
 This program is fairly straightforward to use, and provides tips and error messages for if you get stuck.  Below is a step-by-step rundown on the program with any specifications on if an answer should follow any formatting rules.  
 At any point, the program may show error messages in a new page.  These are left out of this description, but will explain to you how the program errored if they are thrown.  You can go to the previous page and the information you entered will still be there for you to edit.  If the program errors out, the user will be asked if they would like to search again.  Searching again brings the user to a blank forum/home page while returning to the previous page maintains the user's input in the forum.
-- First, run the program in your terminal as a module ("python -m RangeSearcher").  The command is case sensitive.
+- First, double click on the executable file or run the program in your terminal as a module ("python -m RangeSearcher").  The command is case sensitive.
 - The program will ask for you for the CSV file you would like to search.  Make sure to enter the full path of the file, not just the name.  You can go into the file explorer, right click on the file you want to search, and copy the path.  
 - The program will ask if you would like to search the file by a range measured in characters or words.  For example, you could 'characters' for if you'd like to search for projects where the word 'subsidiary' is within 100 characters of 'bank' or 'words'for if you'd like to search for projects where 'subsidiary' is within 5 words of 'bank'
 - The program will ask how many words/characters long you would like the range it searches by to be.  In the previous step, the first example would enter the number 100 and the second would enter the number 5. Lag time shouldn't be a problem if you search by characters, but in long files, you may notice some lag time for longer, word-based ranges. It's not recommended to search by a range longer than 10 words unless the file is short.  If you are experiencing too much lag time, either keep waiting or exit the program, reenter, and try again with a character-based or shorter range.
@@ -40,10 +40,10 @@ At any point, the program may show error messages in a new page.  These are left
 - Finally, the program asks the user if they would like to search another file.  At this point, you can either search again or quit the program.  If you search again, the previously detailed steps will repeat with whatever file you give it. 
 ## Roadmap
 ---
-Future versions of the program may include an executable.  Feel free to let me know if you have any suggestions!
+No updates are planned for RangeSearcher at this time.  Feel free to let me know if you have any suggestions!
 ## Contributing
 ---
-Any and all contributions are welcome!  If you have a suggestion for an improvement, feel free to fork the repository and make a pull request.  You could also open an issue with the tag "enhancement".  Thank you for helping to make SubsidiarySearcher.py even better!
+Any and all contributions are welcome!  If you have a suggestion for an improvement, feel free to fork the repository and make a pull request.  You could also open an issue with the tag "enhancement".  Thank you for helping to make RangeSeearcher.py even better!
 
 ## License
 ---
